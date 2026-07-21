@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* Navbar dengan Shadow Halus */
+.navbar {
+    background-color: #002456;
+    padding: 1.2rem 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.navbar h2 {
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+    transform: translateY(-2px);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 25px;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.page-title {
+    color: #002456;
+    font-size: 2.6rem;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.page-header p {
+    color: #666;
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Stats Section dengan Gradient */
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(135deg, #002456 0%, #003a8c 100%);
+    color: white;
+    padding: 50px 30px;
+    border-radius: 24px;
+    margin-bottom: 60px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0,36,86,0.18);
+}
+
+.stat-item i {
+    font-size: 2.5rem;
+    color: #ffcc00;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.stat-number {
+    display: block;
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin: 5px 0;
+}
+
+.stat-item p {
+    font-size: 0.95rem;
+    font-weight: 500;
+    opacity: 0.85;
+}
+
+/* Grid Riset dengan Efek Hover Modern */
+.research-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 35px;
+}
+
+.res-card {
+    background: white;
+    padding: 45px 35px;
+    border: 1px solid #eef0f2;
+    border-radius: 20px;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.res-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.07);
+    border-color: #ffcc00;
+}
+
+.icon-box {
+    font-size: 42px;
+    color: #002456;
+    margin-bottom: 25px;
+    background: #f0f4f8;
+    width: 85px;
+    height: 85px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.res-card:hover .icon-box {
+    background: #ffcc00;
+    color: #002456;
+}
+
+.res-card h3 {
+    color: #002456;
+    margin-bottom: 18px;
+    font-size: 1.45rem;
+    font-weight: 700;
+    border-left: 4px solid #ffcc00;
+    padding-left: 12px;
+}
+
+.res-card p {
+    font-size: 0.98rem;
+    color: #555;
+    text-align: justify;
+}
+
+/* Info Block */
+.info-block {
+    margin-top: 80px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 20px;
+    border-left: 8px solid #ffcc00;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.03);
+}
+
+.info-block h3 {
+    color: #002456;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Footer */
+.main-footer {
+    background: #111;
+    color: #ccc;
+    text-align: center;
+    padding: 70px 20px;
+    margin-top: 100px;
+    border-top: 4px solid #ffcc00;
+}
+
+.footer-social {
+    margin-top: 30px;
+}
+
+.footer-social a {
+    color: white;
+    font-size: 1.8rem;
+    margin: 0 18px;
+    transition: all 0.3s;
+}
+
+.footer-social a:hover {
+    color: #ffcc00;
+    transform: scale(1.2);
+}
+
+/* Penyesuaian Mobile */
+@media (max-width: 768px) {
+    .stats-section {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .page-title {
+        font-size: 2rem;
+    }
+    .res-card {
+        padding: 30px 20px;
+    }
+}

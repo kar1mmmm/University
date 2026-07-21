@@ -1,0 +1,262 @@
+#searchInput {
+    padding: 12px 20px;
+    width: 80%;
+    font-size: 1rem;
+    border: 1px solid #0b46bc;
+    border-radius: 15px;
+    outline: none;
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+    transition: all 0.3s ease;
+}
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #45424240;
+    width: 100vw;
+    min-height: 100vh; 
+    padding: 30px 0; 
+}
+
+header {
+    width: 100%;
+    background: #002456;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 5%;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-left: 15px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.inner-container-main {
+    display: flex;
+    flex-direction: column;
+    width: 90%; 
+    margin: 0 auto; 
+    place-items: center;
+    gap: 30px;
+}
+
+.welcome-banner{
+    background: linear-gradient(rgba(0, 36, 86, 0.7), rgba(0, 36, 86, 0.5)), url('image/SPMB-2025-1631815228.webp');
+    background-size: cover;
+    background-position: center bottom;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+    justify-content: center;
+    width: 80vw;
+    height: 20vh;
+    border-radius: 15px;
+}
+
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; 
+    margin-bottom: 40px; 
+}
+
+.UI-1, .UGM-2, .ITB-3,
+    .UNAIR-4, .IPB-5, .UNPAD-6,
+ .ITS-7, .UNDIP-8,
+ .UB-9, .UNHAS-10, .UNS-11, .UNAND-12{
+    width: 30%; 
+    height: 400px;
+    background-color: #eaf1fb;
+    color: #003366;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.UI-1:hover, .UGM-2:hover, .ITB-3:hover,
+.UNAIR-4:hover, .IPB-5:hover, .UNPAD-6:hover, 
+.ITS-7:hover, .UNDIP-8:hover, .UB-9:hover, .UNHAS-10:hover,
+ .UNS-11:hover, .UNAND-12:hover {
+    transform: translateY(-5px);
+}
+
+
+
+img {
+    width: 100%;
+    height: 35%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+button{
+    border-radius: 15px;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin-top: 40px;
+    color: white;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+    top: 0;
+    position: sticky; 
+    z-index: 100;
+}
+
+.btn-detail {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    background: linear-gradient(90deg, #003366 0%, #00509e 100%);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: background 0.3s, transform 0.2s;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btn-detail:hover {
+    background: linear-gradient(90deg, #00509e 0%, #003366 100%);
+    color: #fff;
+    transform: scale(1.04);
+}
+
+
+@media screen and (max-width: 768px) {
+    .welcome-banner h1 {
+        font-size: 1.5rem;
+        padding: 0 10px;
+    }
+
+    .welcome-banner p {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+
+    .inner-container h3 {
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+    }
+
+    .inner-container p {
+        font-size: 0.85rem;
+        text-align: justify;
+    }
+
+    .logo {
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+    }
+
+    nav ul li a {
+        font-size: 0.8rem;
+    }
+}
+
+body.dark-mode {
+    background-color: #181a1b;
+    color: #e0e0e0;
+}
+body.dark-mode header {
+    background: #23272b;
+}
+body.dark-mode nav .logo {
+    color: #ffb300;
+}
+body.dark-mode nav ul li a {
+    color: #e0e0e0;
+}
+body.dark-mode nav ul li a:hover {
+    color: #ffb300;
+}
+body.dark-mode .welcome-banner {
+    background: linear-gradient(rgba(34,34,34,0.8), rgba(34,34,34,0.7)), url('image/SPMB-2025-1631815228.webp');
+    color: #ffb300;
+}
+body.dark-mode .UI-1, body.dark-mode .UGM-2, body.dark-mode .ITB-3,
+body.dark-mode .UNAIR-4, body.dark-mode .IPB-5, body.dark-mode .UNPAD-6,
+body.dark-mode .ITS-7, body.dark-mode .UNDIP-8, body.dark-mode .UB-9,
+body.dark-mode .UNHAS-10, body.dark-mode .UNS-11, body.dark-mode .UNAND-12 {
+    background-color: #23272b;
+    color: #ffb300;
+}
+body.dark-mode .btn-detail {
+    background: linear-gradient(90deg, #444b53 0%, #23272b 100%);
+    color: #ffb300;
+}
+body.dark-mode .btn-detail:hover {
+    background: linear-gradient(90deg, #23272b 0%, #444b53 100%);
+    color: #23272b;
+}
+body.dark-mode footer {
+    background: #23272b;
+    color: #bdbdbd;
+}

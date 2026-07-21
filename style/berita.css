@@ -1,0 +1,144 @@
+.news-item a {
+    color: #00509e;
+    text-decoration: underline;
+    transition: color 0.2s;
+    font-weight: 500;
+}
+.news-item a:hover {
+    color: #ffb300;
+    text-decoration: underline;
+}
+.news-item .badge {
+    margin-left: 10px;
+    margin-top: -2px;
+    vertical-align: middle;
+    font-size: 0.82em;
+    box-shadow: 0 1px 4px #ffb30033;
+}
+.news-item {
+    margin-bottom: 0px;
+}
+body {
+    background: #f5f7fa;
+    color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #003366;
+    color: #fff;
+    padding: 0;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+nav ul li a:hover {
+    color: #ffb300;
+}
+
+.inner-container-main {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.welcome-banner {
+    background: linear-gradient(90deg, #003366 60%, #00509e 100%);
+    color: #fff;
+    border-radius: 15px;
+    padding: 30px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.news-item {
+    background: #eaf1fb;
+    border-radius: 15px;
+    padding: 24px 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    transition: box-shadow 0.2s;
+}
+
+.news-item:hover {
+    box-shadow: 0 6px 18px rgba(0,0,0,0.13);
+}
+
+.news-item h3 {
+    color: #003366;
+    margin-bottom: 8px;
+}
+
+.news-item p {
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.news-item small {
+    color: #888;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #003366;
+    color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .inner-container-main {
+        width: 98%;
+    }
+    .welcome-banner {
+        padding: 18px 8px;
+        font-size: 0.95rem;
+    }
+    .news-item {
+        padding: 16px 8px;
+    }
+}
