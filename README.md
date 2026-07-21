@@ -72,7 +72,7 @@ Setiap kampus memiliki halaman detail dengan sub-menu:
 ### Frontend Stack:
 - **HTML5** - Struktur dan semantik halaman
 - **CSS3** - Styling dan layout responsif
-- **Vanilla JavaScript** - Interaktivitas (pencarian, dark mode)
+- **Vanilla JavaScript** - Interaktivitas (pencarian)
 
 ### Library & Framework:
 - **Font Awesome 6.4.0** - Ikon-ikon website
@@ -93,7 +93,7 @@ Project ini mencakup pembelajaran dasar frontend:
 - Styling cards dan components
 - Responsive design (mobile-first approach)
 - Pseudo-classes dan transitions
-- Dark mode dengan CSS variables (jika diimplementasikan)
+- Dark mode dengan CSS variables 
 
 ### 3. **JavaScript**
 - Event listeners (DOMContentLoaded, input events)
