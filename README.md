@@ -10,6 +10,7 @@ PTN INFO adalah website informasi yang menyediakan data lengkap tentang Pergurua
 
 **Author:** Karim  
 **Kolaborator but in irl:** Altaf
+
 **Tujuan web bg toyib ini dibuat:** Membantu calon mahasiswa menemukan dan mempelajari informasi lengkap tentang universitas negeri pilihan mereka sebelum mendaftar.
 
 ---
