@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <link rel="stylesheet" href="2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -218,11 +218,9 @@
         </div>
       </div>  
 
-           
-</body>
-<script src="search.js"></script>
-<script>
-// Dark mode toggle logic
+    <script src="search.js"></script>
+    <script>
+    // Dark mode toggle logic
 const darkModeToggle = document.getElementById('darkModeToggle');
 const icon = darkModeToggle.querySelector('i');
 function setDarkMode(on) {
@@ -245,8 +243,9 @@ darkModeToggle.addEventListener('click', function() {
     localStorage.setItem('ptninfo-darkmode', isDark ? '1' : '0');
 });
 // Cek preferensi saat load
-if (localStorage.getItem('ptninfo-darkmode') === '1') {
-    setDarkMode(true);
-}
-</script>
+    if (localStorage.getItem('ptninfo-darkmode') === '1') {
+        setDarkMode(true);
+    }
+    </script>
+</body>
 </html>
