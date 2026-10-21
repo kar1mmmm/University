@@ -134,14 +134,38 @@
     },
     {
       "id": 13,
+      "kelas": "UPI-14",
+      "nama": "Universitas Pendidikan Indonesia",
+      "singkatan": "UPI",
+      "lokasi": "Bandung, Jawa Barat",
+      "deskripsi": "Universitas Pendidikan Indonesia (UPI) adalah perguruan tinggi negeri di Indonesia yang didirikan pada 20 Oktober 1954, berawal sebagai Perguruan Tinggi Pendidikan Guru (PTPG), kemudian menjadi IKIP Bandung pada 1963, sebelum berubah menjadi UPI pada 1999. Berlokasi di Bandung, Jawa Barat, UPI dikenal sebagai pusat keunggulan ilmu kependidikan dan pendidikan tenaga guru, serta menjadi salah satu PTN berstatus Badan Hukum (PTN-BH) dengan akreditasi unggul.",
+      "gambar": "image/upi.jpg",
+      "alt": "Kampus Universitas Pendidikan Indonesia, Bandung",
+      "url": "upi.html"
+   
+    },
+    {
+      "id": 14,
       "kelas": "UNP-13",
       "nama": "Universitas Negeri Padang",
       "singkatan": "UNP",
       "lokasi": "Padang, Sumatera Barat",
-      "deskripsi": "Universitas Negeri Padang (UNP) adalah perguruan tinggi negeri di Indonesia yang didirikan pada 23 Oktober 1954 (berawal sebagai Perguruan Tinggi Pendidikan Guru/PTPG Batusangkar) dan berlokasi di Padang, Sumatera Barat. UNP merupakan salah satu perguruan tinggi tertua di Indonesia yang kini berstatus PTN Badan Hukum (PTN-BH) dan telah mendapatkan akreditasi Unggul dari BAN-PT. Universitas ini dikenal sebagai salah satu perguruan tinggi favorit di Indonesia dengan fokus kuat pada ilmu pendidikan dan kependidikan, serta pengembangan riset di bidang sains, teknologi, olahraga, bahasa, dan seni, serta secara konsisten masuk dalam jajaran universitas terbaik nasional, khususnya di wilayah Sumatera.",
+      "deskripsi": "Universitas Negeri Padang (UNP) adalah perguruan tinggi negeri di Padang, Sumatera Barat, yang didirikan pada 23 Oktober 1954 (berawal dari PTPG Batusangkar). Berstatus PTN-BH dengan akreditasi Unggul, UNP berfokus pada bidang kependidikan, sains, teknologi, seni, dan olahraga, serta konsisten menjadi universitas favorit terkemuka di tingkat nasional guna mencetak generasi unggul berkualitas bagi Indonesia demi kemajuan peradaban masa depan.",
       "gambar": "image/UNP.jpg",
       "alt": "Kampus Universitas Negeri Padang, Padang",
       "url": "unp.html"
+
+    },
+    {
+      "id": 15,
+      "kelas": "USU-15",
+      "nama": "Universitas Sumatera Utara",
+      "singkatan": "USU",
+      "lokasi": "Medan, Sumatera Utara",
+      "deskripsi": "Universitas Sumatera Utara (USU) adalah perguruan tinggi negeri di Indonesia yang berdiri pada 1952 sebagai Yayasan Universitas Sumatera Utara dengan Fakultas Kedokteran sebagai fakultas pertamanya, lalu diresmikan sebagai PTN ke-7 Indonesia pada 1957 oleh Presiden Soekarno. Berlokasi di Medan, Sumatera Utara, USU merupakan salah satu universitas terbesar di luar Pulau Jawa dengan 15 fakultas dan berstatus PTN Badan Hukum (PTN-BH).",
+      "gambar": "image/usu.jpg",
+      "alt": "Kampus Universitas Sumatera Utara, Medan",
+      "url": "usu.html"
     }
   ]
 }

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ptninfo-v3';
+const CACHE_NAME = 'ptninfo-v4';
 
 const CORE_ASSETS = [
     './2.html',
