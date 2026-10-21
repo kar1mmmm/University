@@ -187,11 +187,11 @@ body {
     .location-split {
         flex-direction: column;
     }
-    
+
     .hero-content h1 {
         font-size: 2rem;
     }
-    
+
     .navbar {
         flex-direction: column;
         gap: 10px;

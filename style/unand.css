@@ -238,7 +238,7 @@ footer {
 @media (max-width: 992px) {
     .faculty-grid {
         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    }   
+    }
     .footer-content {
         flex-direction: column;
         gap: 25px;
@@ -284,7 +284,7 @@ footer {
     }
     .section-title {
         font-size: 22px;
-    }   
+    }
     .faculty-card {
         padding: 20px 15px;
     }

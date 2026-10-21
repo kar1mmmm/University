@@ -1,0 +1,23 @@
+{
+  "name": "PTN INFO - Informasi Perguruan Tinggi Negeri Indonesia",
+  "short_name": "PTN INFO",
+  "description": "Direktori informasi Perguruan Tinggi Negeri terkemuka di Indonesia.",
+  "start_url": "./2.html",
+  "scope": "./",
+  "display": "standalone",
+  "lang": "id",
+  "theme_color": "#002456",
+  "background_color": "#002456",
+  "icons": [
+    {
+      "src": "image/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "image/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

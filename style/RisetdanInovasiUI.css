@@ -11,7 +11,6 @@ body {
     line-height: 1.7;
 }
 
-/* Navbar dengan Shadow Halus */
 .navbar {
     background-color: #002456;
     padding: 1.2rem 8%;
@@ -72,7 +71,6 @@ body {
     margin: auto;
 }
 
-/* Stats Section dengan Gradient */
 .stats-section {
     display: flex;
     justify-content: space-around;
@@ -105,7 +103,6 @@ body {
     opacity: 0.85;
 }
 
-/* Grid Riset dengan Efek Hover Modern */
 .research-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
@@ -165,7 +162,6 @@ body {
     text-align: justify;
 }
 
-/* Info Block */
 .info-block {
     margin-top: 80px;
     padding: 40px;
@@ -183,7 +179,6 @@ body {
     gap: 12px;
 }
 
-/* Footer */
 .main-footer {
     background: #111;
     color: #ccc;
@@ -209,7 +204,6 @@ body {
     transform: scale(1.2);
 }
 
-/* Penyesuaian Mobile */
 @media (max-width: 768px) {
     .stats-section {
         flex-direction: column;

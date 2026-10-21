@@ -1,0 +1,147 @@
+{
+  "kampus": [
+    {
+      "id": 1,
+      "kelas": "UI-1",
+      "nama": "Universitas Indonesia",
+      "singkatan": "UI",
+      "lokasi": "Depok, Jawa Barat",
+      "deskripsi": "Universitas Indonesia (UI) adalah salah satu perguruan tinggi negeri terbaik di Indonesia, yang didirikan pada tahun 1849 dan dikenal sebagai kampus modern serta multikultural dengan reputasi akademik yang kuat. UI sering masuk dalam peringkat universitas terbaik di Indonesia dan dunia, serta dijuluki \"Kampus Perjuangan\" karena kontribusi mahasiswanya dalam sejarah bangsa.",
+      "gambar": "image/UI.jpg",
+      "alt": "Kampus Universitas Indonesia di Depok",
+      "url": "ui.html"
+    },
+    {
+      "id": 2,
+      "kelas": "UGM-2",
+      "nama": "Universitas Gadjah Mada",
+      "singkatan": "UGM",
+      "lokasi": "Yogyakarta, DI Yogyakarta",
+      "deskripsi": "Universitas Gadjah Mada (UGM) adalah perguruan tinggi negeri pertama yang didirikan pemerintah Indonesia, pada 1949 di Yogyakarta, dikenal sebagai universitas perjuangan, kerakyatan, dan pembela Pancasila. Dengan reputasi yang kuat baik di tingkat nasional maupun internasional, UGM secara konsisten masuk jajaran universitas terbaik di Indonesia. Kampus ini berlokasi di Bulaksumur dan dikenal dengan julukan \"Kampus Biru\".",
+      "gambar": "image/Geografi-UGM.jpg",
+      "alt": "Fakultas Geografi Universitas Gadjah Mada, Yogyakarta",
+      "url": "ugm.html"
+    },
+    {
+      "id": 3,
+      "kelas": "ITB-3",
+      "nama": "Institut Teknologi Bandung",
+      "singkatan": "ITB",
+      "lokasi": "Bandung, Jawa Barat",
+      "deskripsi": "Institut Teknologi Bandung adalah sebuah perguruan tinggi negeri (PTN) yang merupakan sekolah tinggi teknik pertama di Indonesia yang didirikan pada 3 Juli 1920 sebagai de Technische Hoogeschool te Bandoeng. ITB memiliki misi untuk mengabdikan ilmu pengetahuan dan teknologi untuk kemajuan Indonesia.",
+      "gambar": "image/170125-Kolam-Intel.jpg",
+      "alt": "Kolam Intel di kampus Institut Teknologi Bandung",
+      "url": "itb.html"
+    },
+    {
+      "id": 4,
+      "kelas": "UNAIR-4",
+      "nama": "Universitas Airlangga",
+      "singkatan": "UNAIR",
+      "lokasi": "Surabaya, Jawa Timur",
+      "deskripsi": "Universitas Airlangga (UNAIR) adalah salah satu perguruan tinggi negeri terbaik di Surabaya yang memiliki reputasi nasional dan internasional yang kuat. UNAIR secara konsisten meraih peringkat tinggi, bahkan menempati posisi ke-9 di dunia dalam Times Higher Education Impact Rankings 2025.",
+      "gambar": "image/unair.jpg",
+      "alt": "Gedung kampus Universitas Airlangga, Surabaya",
+      "url": "unair.html"
+    },
+    {
+      "id": 5,
+      "kelas": "IPB-5",
+      "nama": "Institut Pertanian Bogor",
+      "singkatan": "IPB",
+      "lokasi": "Bogor, Jawa Barat",
+      "deskripsi": "IPB University (Institut Pertanian Bogor) adalah salah satu perguruan tinggi negeri terkemuka di Bogor yang didirikan pada 1963 dan dikenal sebagai pusat keunggulan dalam bidang pertanian, biosains, serta inovasi. Kampus ini secara konsisten masuk dalam peringkat universitas terbaik di Indonesia dan dunia, bahkan diakui sebagai salah satu perguruan tinggi paling inovatif di tanah air.",
+      "gambar": "image/rectorate-builiding-ipb-university-bogor-indonesia-building-known-as-andi-hakim-nasoetion-aerial-photo-june-283696000.webp",
+      "alt": "Gedung rektorat Andi Hakim Nasoetion IPB University, Bogor",
+      "url": "ipb.html"
+    },
+    {
+      "id": 6,
+      "kelas": "UNPAD-6",
+      "nama": "Universitas Padjadjaran",
+      "singkatan": "UNPAD",
+      "lokasi": "Bandung dan Jatinangor, Jawa Barat",
+      "deskripsi": "UNPAD adalah singkatan dari Universitas Padjadjaran, sebuah perguruan tinggi negeri di Indonesia yang didirikan pada 11 September 1957 dan berlokasi di Bandung dan Jatinangor, Jawa Barat. Universitas ini merupakan salah satu perguruan tinggi favorit di Indonesia dan telah mendapatkan berbagai peringkat, termasuk masuk lima besar kampus terbaik nasional dalam pemeringkatan QS World University Rankings: Sustainability 2024.",
+      "gambar": "image/ij11d17kn4vlnm6utuzh.jpg",
+      "alt": "Kampus Universitas Padjadjaran, Jatinangor",
+      "url": "unpad.html"
+    },
+    {
+      "id": 7,
+      "kelas": "ITS-7",
+      "nama": "Institut Teknologi Sepuluh Nopember",
+      "singkatan": "ITS",
+      "lokasi": "Surabaya, Jawa Timur",
+      "deskripsi": "Institut Teknologi Sepuluh Nopember (ITS) adalah perguruan tinggi negeri di Indonesia yang didirikan pada 10 November 1957 dan berlokasi di Surabaya, Jawa Timur. Universitas ini merupakan salah satu perguruan tinggi favorit di Indonesia yang berfokus pada bidang sains dan teknologi. ITS dikenal akan kontribusinya dalam inovasi dan riset, serta konsisten masuk dalam jajaran kampus teknik terbaik nasional.",
+      "gambar": "image/Gambar2111-1-1024x683-1.jpg",
+      "alt": "Gedung rektorat Institut Teknologi Sepuluh Nopember, Surabaya",
+      "url": "its.html"
+    },
+    {
+      "id": 8,
+      "kelas": "UNDIP-8",
+      "nama": "Universitas Diponegoro",
+      "singkatan": "UNDIP",
+      "lokasi": "Semarang, Jawa Tengah",
+      "deskripsi": "Universitas Diponegoro (Undip) adalah perguruan tinggi negeri di Indonesia yang didirikan pada 15 Oktober 1957 dan berlokasi di Semarang, Jawa Tengah. Universitas ini merupakan salah satu perguruan tinggi favorit di Indonesia dan secara konsisten menempati peringkat teratas dalam berbagai pemeringkatan nasional. Undip dikenal unggul dalam riset dan inovasi, serta telah mendapatkan berbagai penghargaan, termasuk masuk dalam jajaran sepuluh besar universitas terbaik di Indonesia.",
+      "gambar": "image/Program-Studi-Saintek-dengan-Daya-Tampung-Terbanyak-di-Undip.jpg",
+      "alt": "Kampus Universitas Diponegoro, Semarang",
+      "url": "undip.html"
+    },
+    {
+      "id": 9,
+      "kelas": "UB-9",
+      "nama": "Universitas Brawijaya",
+      "singkatan": "UB",
+      "lokasi": "Malang, Jawa Timur",
+      "deskripsi": "Universitas Brawijaya (UB) adalah perguruan tinggi negeri di Indonesia yang didirikan pada 5 Januari 1963 dan berlokasi di Kota Malang, Jawa Timur. Universitas ini merupakan salah satu perguruan tinggi favorit di Indonesia dan secara rutin masuk dalam jajaran sepuluh besar universitas terbaik nasional versi berbagai lembaga pemeringkatan. UB dikenal karena keunggulan akademiknya dalam berbagai disiplin ilmu, termasuk pertanian, kedokteran, dan ekonomi.",
+      "gambar": "image/Universitas-Brawijaya.jpg",
+      "alt": "Gedung rektorat Universitas Brawijaya, Malang",
+      "url": "ub.html"
+    },
+    {
+      "id": 10,
+      "kelas": "UNHAS-10",
+      "nama": "Universitas Hasanuddin",
+      "singkatan": "UNHAS",
+      "lokasi": "Makassar, Sulawesi Selatan",
+      "deskripsi": "Universitas Hasanuddin (Unhas) adalah perguruan tinggi negeri di Indonesia yang didirikan pada 10 September 1956 dan berlokasi di Makassar, Sulawesi Selatan. Unhas merupakan universitas terbesar dan terkemuka di Indonesia bagian timur, serta menjadi salah satu perguruan tinggi favorit di Indonesia. Universitas ini dikenal unggul, khususnya dalam bidang maritim, pertanian, kehutanan, dan kesehatan, dan secara konsisten menempati posisi teratas dalam jajaran universitas terbaik nasional.",
+      "gambar": "image/rektorat-universitas-hasanuddin.jpg",
+      "alt": "Gedung rektorat Universitas Hasanuddin, Makassar",
+      "url": "unhas.html"
+    },
+    {
+      "id": 11,
+      "kelas": "UNS-11",
+      "nama": "Universitas Sebelas Maret",
+      "singkatan": "UNS",
+      "lokasi": "Surakarta, Jawa Tengah",
+      "deskripsi": "Universitas Sebelas Maret (UNS) adalah perguruan tinggi negeri di Indonesia yang didirikan pada 11 Maret 1976 dan berlokasi di Surakarta, Jawa Tengah. UNS merupakan salah satu perguruan tinggi favorit di Indonesia dan secara konsisten menempati peringkat teratas dalam berbagai pemeringkatan nasional, bahkan sering masuk dalam jajaran universitas terbaik. Universitas ini dikenal memiliki komitmen kuat dalam pengembangan pendidikan, riset, dan inovasi yang berfokus pada keberlanjutan dan peningkatan kualitas hidup masyarakat.",
+      "gambar": "image/UNS-Adakan-Wisuda-Sekali-Setiap-Bulan.jpg",
+      "alt": "Suasana wisuda di Universitas Sebelas Maret, Surakarta",
+      "url": "uns.html"
+    },
+    {
+      "id": 12,
+      "kelas": "UNAND-12",
+      "nama": "Universitas Andalas",
+      "singkatan": "UNAND",
+      "lokasi": "Padang, Sumatera Barat",
+      "deskripsi": "Universitas Andalas (Unand) adalah perguruan tinggi negeri di Indonesia yang didirikan pada 23 Desember 1955 dan berlokasi di Padang, Sumatera Barat. Unand merupakan universitas tertua di luar Pulau Jawa dan telah mendapatkan akreditasi unggul dari BAN-PT. Universitas ini dikenal sebagai salah satu perguruan tinggi favorit di Indonesia dengan fokus kuat pada riset bidang pertanian, kesehatan, dan ilmu sosial, serta secara konsisten masuk dalam jajaran universitas terbaik nasional, khususnya di wilayah Sumatera.",
+      "gambar": "image/unand.jpg",
+      "alt": "Kampus Universitas Andalas, Padang",
+      "url": "unand.html"
+    },
+    {
+      "id": 13,
+      "kelas": "UNP-13",
+      "nama": "Universitas Negeri Padang",
+      "singkatan": "UNP",
+      "lokasi": "Padang, Sumatera Barat",
+      "deskripsi": "Universitas Negeri Padang (UNP) adalah perguruan tinggi negeri di Indonesia yang didirikan pada 23 Oktober 1954 (berawal sebagai Perguruan Tinggi Pendidikan Guru/PTPG Batusangkar) dan berlokasi di Padang, Sumatera Barat. UNP merupakan salah satu perguruan tinggi tertua di Indonesia yang kini berstatus PTN Badan Hukum (PTN-BH) dan telah mendapatkan akreditasi Unggul dari BAN-PT. Universitas ini dikenal sebagai salah satu perguruan tinggi favorit di Indonesia dengan fokus kuat pada ilmu pendidikan dan kependidikan, serta pengembangan riset di bidang sains, teknologi, olahraga, bahasa, dan seni, serta secara konsisten masuk dalam jajaran universitas terbaik nasional, khususnya di wilayah Sumatera.",
+      "gambar": "image/UNP.jpg",
+      "alt": "Kampus Universitas Negeri Padang, Padang",
+      "url": "unp.html"
+    }
+  ]
+}

@@ -86,6 +86,8 @@ nav ul li a:hover {
     padding: 30px 20px;
     text-align: center;
     margin-bottom: 20px;
+    height: auto;
+    min-height: 120px;
 }
 
 .content-wrapper {

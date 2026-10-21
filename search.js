@@ -1,8 +1,8 @@
 function normalize(text) {
     return text
         .toLowerCase()
-        .replace(/[^a-z0-9\u00C0-\u017F ]/g, '') 
-        .replace(/\s+/g, ' ') 
+        .replace(/[^a-z0-9\u00C0-\u017F ]/g, '')
+        .replace(/\s+/g, ' ')
         .trim();
 }
 

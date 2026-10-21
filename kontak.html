@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#002456">
+    <meta name="description" content="Kontak PTN INFO - Hubungi kami untuk request info kampus">
+    <title>PTN INFO - Kontak</title>
+    <link rel="stylesheet" href="2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <button id="darkModeToggle" aria-label="Ganti mode gelap/terang">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <header>
+        <nav>
+            <h2 class="logo">informasi PTN by karim</h2>
+            <button id="navToggle" class="nav-toggle" aria-label="Buka tutup menu" aria-expanded="false" aria-controls="navMenu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul id="navMenu">
+                <li><a href="2.html"><i class="fas fa-home"></i> Beranda</a></li>
+                <li><a href="tentang.html"><i class="fas fa-info-circle"></i> Tentang</a></li>
+                <li><a href="kontak.html" aria-current="page"><i class="fas fa-envelope"></i> Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="inner-container-main">
+        <section class="welcome-banner">
+            <h1>Hubungi Kami</h1>
+            <p>Punya pertanyaan tentang PTN? Kirim pesan melalui form di bawah ini, kami akan merespons secepatnya.</p>
+        </section>
+
+        <main>
+            <section class="form-section">
+                <h2>Form Kontak / Request Info Kampus</h2>
+                <p>Form ini menggunakan validasi sisi klien: isian tidak boleh kosong dan format email harus valid.</p>
+                <form id="formKontak" novalidate>
+                    <div class="form-group">
+                        <label for="nama">Nama Lengkap</label>
+                        <input type="text" id="nama" name="nama" autocomplete="name" aria-describedby="error-nama">
+                        <span class="error-msg" id="error-nama" role="alert"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" autocomplete="email" aria-describedby="error-email">
+                        <span class="error-msg" id="error-email" role="alert"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="pesan">Pesan</label>
+                        <textarea id="pesan" name="pesan" rows="5" aria-describedby="error-pesan"></textarea>
+                        <span class="error-msg" id="error-pesan" role="alert"></span>
+                    </div>
+                    <button type="submit" class="btn-detail btn-submit">Kirim Pesan</button>
+                    <p class="success-msg" id="formSukses"></p>
+                </form>
+            </section>
+
+            <section class="page-section table-section">
+                <h2>Jadwal Layanan Informasi</h2>
+                <p>Kami melayani konsultasi pemilihan PTN pada jam berikut:</p>
+                <div class="table-wrapper">
+                    <table>
+                        <caption>Jadwal Layanan PTN INFO</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Hari</th>
+                                <th scope="col">Jam</th>
+                                <th scope="col">Layanan</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Senin - Jumat</td>
+                                <td>08.00 - 16.00 WIB</td>
+                                <td>Konsultasi &amp; Request Info</td>
+                            </tr>
+                            <tr>
+                                <td>Sabtu</td>
+                                <td>09.00 - 12.00 WIB</td>
+                                <td>Konsultasi Terbatas</td>
+                            </tr>
+                            <tr>
+                                <td>Minggu &amp; Libur Nasional</td>
+                                <td>Tutup</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="page-section">
+                <h2>Kontak Lain</h2>
+                <div class="info-grid">
+                    <article class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>info@ptninfo.id</p>
+                    </article>
+                    <article class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Telepon</h3>
+                        <p>+62 812-3456-7890</p>
+                    </article>
+                    <article class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Alamat</h3>
+                        <p>Padang, Sumatera Barat, Indonesia</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 PTN INFO by Karim. Semua hak dilindungi.</p>
+        <p><a href="2.html">Beranda</a> | <a href="tentang.html">Tentang</a> | <a href="kontak.html">Kontak</a></p>
+    </footer>
+
+    <script src="main.js" defer type="module"></script>
+</body>
+</html>
